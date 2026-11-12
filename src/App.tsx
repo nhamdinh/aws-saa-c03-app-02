@@ -51,6 +51,17 @@ const CERTIFICATIONS: CertificationConfig[] = [
   //   ],
   // },
   {
+    id: 'claude-certified-architect-professional',
+    title: 'Claude Certified Architect (Professional)',
+    description: 'Claude AI fluency, prompt engineering and responsible use',
+    exams: [
+      {
+        id: 'claude-architect-professional-exam-01',
+        path: '/data/claude-architect-professional-exam-01.json',
+      },
+    ],
+  },
+  {
     id: 'aws-saa-c03',
     title: 'AWS Certified Solutions Architect – Associate',
     description: 'AWS Certified Solutions Architect – Associate',
